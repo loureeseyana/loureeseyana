@@ -880,10 +880,9 @@ background-position-y: 70px;
 }
 
 .about-us .points:before{
-	content: "\f058";
+    font: var(--fa-font-solid);
+    content: "\f304";
 	position: absolute;
-	font-family: FontAwesome;
-	font-size: 1.125em;
 	color: #000000;
 	left: 0px;
 	top: 6px;
