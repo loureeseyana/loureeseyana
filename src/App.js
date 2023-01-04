@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import './styles/style.css';
-import Sidebar from './components/sidebar'
-import Introduction from './components/introduction'
 import About from './components/about';
 import Timeline from './components/experience'
 import MainSection from './components/main-section';
@@ -18,6 +16,7 @@ class App extends Component {
           <Header></Header>
           <About></About>
          	<Services></Services> 
+           <Timeline></Timeline>
           <Contact></Contact>
       </div>
     );

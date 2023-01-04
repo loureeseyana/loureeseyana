@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin, faPinterest, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFilePdf } from '@fortawesome/free-regular-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default class MainSection extends Component {
   render() {
@@ -19,11 +20,19 @@ export default class MainSection extends Component {
               </h2>
               <p>
                 I am a true full stack developer. I love React, Node.js and Typescript. Also willing to learn more.
-                In addition, I'm a boy and dog mom. I love being outdoors. I love all things new age spirituality.
-                Enthusiastic about making magic in every aspect of my life. Come on my journey with me.{" "}
+                I enjoy helping small businesses expand their technological offerings, through project management and search engine optimization services.
+                In addition, mentoring aspiring engineers and developers is a huge passion of mine.{" "}
               </p>
               <div className="underline" />
               <ul className="social_links">
+              <li
+                  className="github animated bounceIn wow delay-03s animated"
+                  style={{ visibility: "visible", animationName: "bounceIn" }}
+                >
+                  <a href="https://drive.google.com/file/d/155vLVDkx1Jx-uRmEZwaGc15CfSTwTxgZ/view?usp=share_link">
+                  <FontAwesomeIcon icon={faFilePdf} />
+                  </a>
+                </li>
                 <li
                   className="linkedin animated bounceIn wow delay-02s animated"
                   style={{ visibility: "visible", animationName: "bounceIn" }}
@@ -38,22 +47,6 @@ export default class MainSection extends Component {
                 >
                   <a href="https://www.github.com/loureeseyana">
                   <FontAwesomeIcon icon={faGithub} />
-                  </a>
-                </li>
-                <li
-                  className="pinterest animated bounceIn wow delay-04s animated"
-                  style={{ visibility: "visible", animationName: "bounceIn" }}
-                >
-                  <a href="https://www.pinterest.com/loureeseyana">
-                  <FontAwesomeIcon icon={faPinterest} />
-                  </a>
-                </li>
-                <li
-                  className="instagram animated bounceIn wow delay-05s animated"
-                  style={{ visibility: "visible", animationName: "bounceIn" }}
-                >
-                  <a href="https://www.instagram.com/loureeseyana">
-                  <FontAwesomeIcon icon={faInstagram} />
                   </a>
                 </li>
               </ul>

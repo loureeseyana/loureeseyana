@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faDiagramProject, faNetworkWired, faUsersRays } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faDiagramProject, faSackDollar, faUsersRays } from '@fortawesome/free-solid-svg-icons'
 
 export default class Services extends Component {
     render() {
@@ -9,67 +9,63 @@ export default class Services extends Component {
   <div className="container">
     <h2>Skills</h2>
     <h6>
-      Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum
+      Some of my offerings. Send me your proposals and let's make it happen.
     </h6>
     <div className="service_wrapper">
       <div className="row">
         <div className="col-md-3">
-          <div className="service_icon delay-03s animated wow  zoomIn">
+          <div className="service-icon delay-03s animated wow  zoomIn">
             {" "}
             <span>
               <FontAwesomeIcon icon={faCode} />
             </span>{" "}
           </div>
-          <div className="service_block">
+          <div className="service-block">
             <h3 className="animated fadeInUp wow">Development</h3>
             <p className="animated fadeInDown wow">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.{" "}
+              Web, desktop, mobile, database, cloud. Let's discuss your projects! {" "}
             </p>
           </div>
         </div>
         <div className="col-md-3">
-          <div className="service_icon icon2  delay-03s animated wow zoomIn">
+          <div className="service-icon icon2  delay-03s animated wow zoomIn">
             {" "}
             <span>
               <FontAwesomeIcon icon={faUsersRays} />
             </span>{" "}
           </div>
-          <div className="service_block">
+          <div className="service-block">
             <h3 className="animated fadeInUp wow">Mentorship</h3>
             <p className="animated fadeInDown wow">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Interested in a career in technology? Want to be a developer? I can guide your journey.
             </p>
           </div>
         </div>
         <div className="col-md-3">
-          <div className="service_icon icon3  delay-03s animated wow zoomIn">
+          <div className="service-icon icon3  delay-03s animated wow zoomIn">
             {" "}
             <span>
             <FontAwesomeIcon icon={faDiagramProject} />
             </span>{" "}
           </div>
-          <div className="service_block">
+          <div className="service-block">
             <h3 className="animated fadeInUp wow">Project Management</h3>
             <p className="animated fadeInDown wow">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Manage and maintain new and existing projects for your small business.
             </p>
           </div>
         </div>
         <div className="col-md-3">
-          <div className="service_icon icon3  delay-03s animated wow zoomIn">
+          <div className="service-icon icon3  delay-03s animated wow zoomIn">
             {" "}
             <span>
-            <FontAwesomeIcon icon={faNetworkWired} />
+            <FontAwesomeIcon icon={faSackDollar} />
             </span>{" "}
           </div>
-          <div className="service_block">
-            <h3 className="animated fadeInUp wow">I.T.</h3>
+          <div className="service-block">
+            <h3 className="animated fadeInUp wow">SEO Optimization</h3>
             <p className="animated fadeInDown wow">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Let me improve your traffic and earn you more money in the process!
             </p>
           </div>
         </div>

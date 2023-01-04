@@ -21,15 +21,19 @@ return (
 									<p>
 										 I started coding in middle school. While my classmates were learning to type, I was learning hacking and basic front end technologies. By highschool, I could write bash scripts, simple websites and learned C++ and Visual Basic. 
 									</p>
+                  <br />
+
 									<p>
 										 The rest is history.
 									</p>
+                  <br />
+                  <br />
+
 									<ul className="about-us-list">
-										<li><FontAwesomeIcon icon={faCodeCommit}/> point about me as an engineer</li>
-										<li><FontAwesomeIcon icon={faCodeCommit}/> another point about me</li>
-                                        <li><FontAwesomeIcon icon={faCodeCommit}/> and another point about me </li>
-										<li> <FontAwesomeIcon icon={faCodeCommit}/> additional point about me </li>
-                                        <li><FontAwesomeIcon icon={faCodeCommit}/> and yet another point about me </li>
+										<li><FontAwesomeIcon icon={faCodeCommit}/> full stack engineer, with preference for backend</li>
+										<li><FontAwesomeIcon icon={faCodeCommit}/> other technologies: Java, Python, AWS, Postgres, MongoDB, etc </li>
+										<li><FontAwesomeIcon icon={faCodeCommit}/> proven track record of improving traffic to sites and social media profiles</li>
+                    <li><FontAwesomeIcon icon={faCodeCommit}/> willing to speak to/mentor future engineers and other STEM professionals </li>
 									</ul>
 								</div>
 								
@@ -74,6 +78,23 @@ return (
           style={{width:'75%'}}
         >
             {"75%"}
+        </div>
+      </div>
+    </div>
+    <div className="barWrapper">
+      <span className="progressText">
+        <b>Java</b>
+      </span>
+      <div className="progress">
+        <div
+          className="progress-bar"
+          role="progressbar"
+          aria-valuenow={70}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          style={{width:'70%'}}
+
+        >{"70%"}
         </div>
       </div>
     </div>

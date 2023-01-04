@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin, faPinterest, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default class Contact extends Component {
 
@@ -28,6 +29,14 @@ render () {
             </div>
           </div>
           <ul className="social_links">
+          <li
+                  className="github animated bounceIn wow delay-03s animated"
+                  style={{ visibility: "visible", animationName: "bounceIn" }}
+                >
+                  <a href="https://drive.google.com/file/d/155vLVDkx1Jx-uRmEZwaGc15CfSTwTxgZ/view?usp=share_link">
+                  <FontAwesomeIcon icon={faFilePdf} />
+                  </a>
+                </li>
                 <li
                   className="linkedin animated bounceIn wow delay-02s animated"
                   style={{ visibility: "visible", animationName: "bounceIn" }}
@@ -42,22 +51,6 @@ render () {
                 >
                   <a href="https://www.github.com/loureeseyana">
                   <FontAwesomeIcon icon={faGithub} />
-                  </a>
-                </li>
-                <li
-                  className="pinterest animated bounceIn wow delay-04s animated"
-                  style={{ visibility: "visible", animationName: "bounceIn" }}
-                >
-                  <a href="https://www.pinterest.com/loureeseyana">
-                  <FontAwesomeIcon icon={faPinterest} />
-                  </a>
-                </li>
-                <li
-                  className="instagram animated bounceIn wow delay-05s animated"
-                  style={{ visibility: "visible", animationName: "bounceIn" }}
-                >
-                  <a href="https://www.instagram.com/loureeseyana">
-                  <FontAwesomeIcon icon={faInstagram} />
                   </a>
                 </li>
               </ul>
